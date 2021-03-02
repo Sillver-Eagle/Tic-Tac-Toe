@@ -1,28 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
 
-    <title>Hello!</title>
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+<head>
+  <title>Tic Tac Toe Project</title>
+  <!-- Link CSS here -->
+  <link type='text/css' rel='stylesheet' href='css/style.css' />
+</head>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
-  </body>
+<body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div class="container">
+
+        <div id="tile1" class="tile right bottom">
+            <button id="button1">Tile 1</button>
+        </div>
+        <div id="tile2" class="tile right bottom">
+            <button id="button2">Tile 2</button>
+        </div>
+        <div id="tile3" class="tile bottom">
+            <button id="button3">Tile 3</button>
+        </div>
+        <div id="tile4" class="tile right bottom">
+            <button id="button4">Tile 4</button>
+        </div>
+        <div id="tile5" class="tile right bottom">
+            <button id="button5">Tile 5</button>
+        </div>
+        <div id="tile6" class="tile bottom">
+            <button id="button6">Tile 6</button>
+        </div>
+        <div id="tile7" class="tile right">
+            <button id="button7">Tile 7</button>
+        </div>
+        <div id="tile8" class="tile right">
+            <button id="button8">Tile 8</button>
+        </div>
+        <div id="tile9" class="tile">
+            <button id="button9">Tile 9</button>
+        </div>
+    </div>
+
+  <!-- Link JQuery here -->
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <!-- Link script.js here -->
+  <script src='js/script.js'></script>
+</body>
+
 </html>
